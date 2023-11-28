@@ -1,2 +1,0 @@
-manager:manager_msgs:simulation
--G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/ubuntu/share/Dev/simulation_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/ubuntu/share/Dev/simulation_ws/install_isolated
