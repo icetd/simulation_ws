@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/share/Dev/simulation_ws/install_isolated
+
+Name: simulation
+Description: Description of simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

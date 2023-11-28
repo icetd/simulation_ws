@@ -37,7 +37,7 @@ bool Manager::init()
     
     ros::start();
     TopicSubPub();
-    mapname_ = "/home/ubuntu/share/Dev/robot_ws/src/simulation/map/nav";
+    mapname_ = "/home/ubuntu/share/Dev/simulation_ws/src/simulation/map/nav";
     return true;  
 }
 

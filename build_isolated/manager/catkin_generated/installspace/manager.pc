@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/share/Dev/simulation_ws/install_isolated
+
+Name: manager
+Description: Description of manager
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs geometry_msgs move_base_msgs actionlib_msgs nav_msgs manager_msgs

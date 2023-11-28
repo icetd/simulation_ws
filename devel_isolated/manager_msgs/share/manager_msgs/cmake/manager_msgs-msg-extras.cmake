@@ -1,0 +1,2 @@
+set(manager_msgs_MESSAGE_FILES "/home/ubuntu/share/Dev/simulation_ws/src/manager_msgs/msg/Plan.msg;/home/ubuntu/share/Dev/simulation_ws/src/manager_msgs/msg/Point.msg;/home/ubuntu/share/Dev/simulation_ws/src/manager_msgs/msg/Pose.msg;/home/ubuntu/share/Dev/simulation_ws/src/manager_msgs/msg/Quaternion.msg;/home/ubuntu/share/Dev/simulation_ws/src/manager_msgs/msg/Status.msg;/home/ubuntu/share/Dev/simulation_ws/src/manager_msgs/msg/Type.msg")
+set(manager_msgs_SERVICE_FILES "")
