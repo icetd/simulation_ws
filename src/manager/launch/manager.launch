@@ -1,0 +1,5 @@
+<launch>
+    <!-- manager -->
+    <node pkg="manager" type="manager" name="manager" output="screen"> </node>
+
+</launch>

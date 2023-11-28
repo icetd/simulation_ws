@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ubuntu/share/Dev/robot_ws/devel/lib/python3/dist-packages",
+        "/home/ubuntu/share/robot_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
