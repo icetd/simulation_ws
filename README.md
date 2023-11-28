@@ -5,5 +5,5 @@ simple ros nav simulation
 ```
 git clone https://github.com/icetd/simulation_ws.git
 cd simualtion_sw
-catkin_make
+catkin_make_isolated
 ```

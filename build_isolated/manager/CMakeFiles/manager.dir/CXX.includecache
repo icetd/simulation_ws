@@ -114,14 +114,6 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ubuntu/share/Dev/simulation_ws/src/manager/src/main.cpp
-iostream
--
-ros/ros.h
--
-manager.h
-/home/ubuntu/share/Dev/simulation_ws/src/manager/src/manager.h
-
 /home/ubuntu/share/Dev/simulation_ws/src/manager/src/manager.cpp
 manager.h
 /home/ubuntu/share/Dev/simulation_ws/src/manager/src/manager.h
@@ -150,21 +142,11 @@ thread.h
 plan.h
 /home/ubuntu/share/Dev/simulation_ws/src/manager/src/plan.h
 
-/home/ubuntu/share/Dev/simulation_ws/src/manager/src/plan.cpp
-plan.h
-/home/ubuntu/share/Dev/simulation_ws/src/manager/src/plan.h
-
 /home/ubuntu/share/Dev/simulation_ws/src/manager/src/plan.h
 geometry_msgs/PoseStamped.h
 -
 move_base_msgs/MoveBaseActionResult.h
 -
-
-/home/ubuntu/share/Dev/simulation_ws/src/manager/src/task.cpp
-
-/home/ubuntu/share/Dev/simulation_ws/src/manager/src/thread.cpp
-thread.h
-/home/ubuntu/share/Dev/simulation_ws/src/manager/src/thread.h
 
 /home/ubuntu/share/Dev/simulation_ws/src/manager/src/thread.h
 thread
