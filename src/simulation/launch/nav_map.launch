@@ -1,0 +1,25 @@
+<launch>
+    <!-- 加载模型 -->
+    <include file="$(find simulation)/launch/car.launch" />
+  
+    <!-- 设置地图的配置文件 -->
+    <include file="$(find simulation)/launch/map_server.launch" />
+  
+    <!-- 启动AMCL节点 -->
+    <include file="$(find simulation)/launch/amcl.launch" />
+    
+    <!-- 运行move_base节点 -->
+    <include file="$(find simulation)/launch/path.launch" />
+
+    <!-- 运行bridge节点 -->
+    <include file="$(find simulation)/launch/rosbridge_websocket.launch" />
+ 
+    <!-- 运行serial socket -->
+    <include file="$(find simulation)/launch/rosserial_socket.launch" />
+    
+    <node pkg="joint_state_publisher" name="joint_state_publisher" type="joint_state_publisher" />
+    <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" />
+    <include file="$(find manager)/launch/manager.launch" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find simulation)/configs/nav.rviz" />
+
+</launch>

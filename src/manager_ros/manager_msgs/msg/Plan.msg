@@ -1,0 +1,9 @@
+Header header
+int64 id
+Pose pose
+Type type
+int64 action_id
+int64 needle_capacity
+int64 alignment_tank_id
+int64 alignment_offset_x
+int64 alignment_offset_y
